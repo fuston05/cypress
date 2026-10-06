@@ -1,8 +1,9 @@
-import { actions, assertions, selectors } from './all'
+import * as login from "./login/all"
 
 describe('Login', () => {
     beforeEach(() => {
         cy.visit('/')
+        cy.intercept('get', '**/api').as('getRequest')
     })
 
     it('should display the login form', () => {
