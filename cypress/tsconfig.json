@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "types": ["cypress"],
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "module": "ES2022",
+    "moduleResolution": "Bundler"
+    
+  },
+  "include": ["**/*.ts"]
+}

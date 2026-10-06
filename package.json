@@ -1,0 +1,24 @@
+{
+  "name": "Cypress Demo",
+  "version": "1.0.0",
+  "description": "Portfolio Cypress testing project",
+  "type": "module",
+  "devDependencies": {
+    "cypress": "^16.1.1",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "test": "npx cypress run --browser chrome --headless",
+    "gui": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuston05/cypress.git"
+  },
+  "author": "Scott Fuston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuston05/cypress/issues"
+  },
+  "homepage": "https://github.com/fuston05/cypress#readme"
+}
